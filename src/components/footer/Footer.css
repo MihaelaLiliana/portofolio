@@ -1,0 +1,13 @@
+.footer {
+    display: flex;
+    background-color: #FFF3E6;
+    align-items: flex-end;
+   
+    
+    
+  }
+  .social {
+    width: 25px;
+    height: 25px;
+    margin: 15px
+  }

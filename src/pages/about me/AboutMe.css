@@ -1,0 +1,47 @@
+.about-me-content{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5%;
+    padding-right: 5%;
+    height:100%;
+    background-image: url(../../img/files.png);
+    
+    
+    
+  }
+  
+  .div-photo {
+    padding-left: 20%;
+    padding-top: 20%;
+    margin-bottom: 20%;
+  }
+  
+  
+  .my-photo {
+   
+    height: 70%;
+    width: 60%;
+   /*  */
+   border-radius: 20px;
+  }
+  
+  
+  .about {
+   
+    border: white solid 3px;
+    border-radius: 10px;
+    width: 90%;
+    height: 30%;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    background-color: #d8f3e5;
+    margin-left: 100px;
+    padding-left: 20px;
+   
+  
+  }
+  
+  .about:hover {
+    background: pink;
+  } 
+  

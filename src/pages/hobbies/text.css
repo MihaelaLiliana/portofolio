@@ -1,0 +1,62 @@
+.hobbies-content {
+    display: flex;
+    flex-direction: row;
+   
+    background-image: url(../../img/files.png);
+    padding-left: 20px;
+    width: 100%;
+    height: 100%; 
+    
+  }
+  
+  
+  
+  .hobbies-photo {
+    display: flex;
+    flex-direction: column;
+  
+  font-family: 'Dancing Script', cursive
+    
+   
+  }
+  
+  .imgH {
+    
+   
+    width: 200px;
+    height: 200px;
+   margin: 5px;
+    border-radius: 10px;
+  }
+  .hobbie-description {
+  
+    width:  100%;
+    height: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+  .hobbie-description > div:nth-child(odd) {
+    margin: 0 0 5em 0;
+  }
+  .hobbie-description > div:nth-child(even) {
+    margin: 0 0 0.5em 0;
+  }
+  .hobbie-item {
+    border: black solid 1px;
+    border-radius: 20px;
+    width: 400px;
+    height:600px;
+    font-family: 'Poiret One', cursive;
+    font-size: 20px;
+    margin-top: 20px;
+  } 
+  
+  
+  

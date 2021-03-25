@@ -1,0 +1,106 @@
+.cVContent{
+  display: flex;
+  align-items: center;
+}
+.containerCV {
+    display: flex;
+    height: 100%;
+    width: 80%;
+    justify-content: center;
+    margin-bottom: 20px;
+    flex-direction: column;
+    padding: 0 5%;
+    margin-top: 10px;
+    border:#ac7339 solid 3px;
+    animation-name: cv;
+  animation-duration: 10s;
+    
+  }
+  @keyframes cv {
+    from {background-color: #d8f3e5;}
+    to {background-color: #ffd1b3;}
+  }
+  .headerCV {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-content: center;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  .headerCV > div {
+    display: flex;
+  }
+  
+  .headerCV > div:nth-child(3) > img {
+    height: 200px;
+    width: 180px;
+    border: white solid 5px;
+    border-radius: 2px;
+    
+  }
+  .headerCV > div:nth-child(3) > div:nth-child(2) {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .headerCV > div > p {
+    margin: 1px 0px;
+  }
+  
+  .headerCV > div:nth-child(2) {
+    font-family: 'Poiret One', cursive;
+  }
+  .headerCV > div:nth-child(2) > div > p {
+    margin: 0;
+    text-align: end;
+    font-style: italic;
+  }
+  .headerCV > div:nth-child(1) > div > p {
+    margin: 0;
+    font-size: 30px;
+    font-family: 'Poiret One', cursive;
+  }
+  .detailsCV {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  .detailsCV > div {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  .detailsCV > div > div:nth-child(1) {
+    font-size: 21px;
+    display: flex;
+    flex: 1;
+    width: 100%;
+    font-family: 'Poiret One', cursive;
+  }
+  .detailsCV > div > div:nth-child(2) {
+    font-size: 21px;
+    display: flex;
+    flex: 10;
+    width: 100%;
+    font-family: 'Poiret One', cursive;
+  }
+  .lineCV {
+    width: 90%;
+    height: 5px;
+    background-color:#ac7339;
+    border-radius: 10px;
+  }
+  .titleCV {
+    font-family: 'Poiret One', cursive;
+    font-size: 30px;
+    color:#ac7339;
+  }
+  

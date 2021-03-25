@@ -1,0 +1,22 @@
+ .navbar {
+  display: flex;
+  background-color: #ffd1b3;
+  justify-content: start;
+  height: 10%;
+  width: 100%;
+  padding-left: 10%;
+
+  
+}
+
+.button {
+  border: 0%;
+  padding: 0%;
+  margin: 0%;
+  background-color: #ffd1b3;
+  font-family: 'Poiret One', cursive;
+  font-size: 20px;
+}
+.button:focus {
+  outline: -webkit-focus-ring-color auto 0px;
+} 

@@ -1,0 +1,69 @@
+.header {
+    height: 10%;
+   width: 100%;
+    
+    
+  }
+  
+  .logo {
+    display: flex;
+    justify-content: center;
+    background-color: #ffb380;
+     padding-bottom: 1%;
+    font-family: 'Poiret One', cursive;
+    font-size: 40px;
+  
+   
+  
+  }
+  .navbar {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ffd1b3;
+    justify-content: center;
+    width: 100%;    
+    padding: 0;
+  }
+  
+  .button {
+      display: flex;
+      
+    border: 0;
+    padding: 0;
+    margin: 10px 0.5em;
+    background-color: #ffd1b3;
+    font-family: 'Poiret One', cursive;
+    font-size: 20px;
+    
+
+  }
+  .button:focus {
+    outline: -webkit-focus-ring-color auto 0px;
+  }
+  
+  .content {
+  
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background-image: url(../../img/files.png);
+  margin-bottom: 10px;
+  height: 100%;
+  width: 100%;
+    
+  }
+  .footer {
+    display: flex;
+    background-color: #FFF3E6;
+    align-items: flex-end;
+    
+   
+    }
+  .social {
+    width: 25px;
+    height: 25px;
+    margin: 15px
+  }
+  
+  
